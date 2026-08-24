@@ -2230,3 +2230,10 @@ select:focus {
         grid-template-columns: 1fr;
     }
 }
+/* Mobile visibility fix */
+@media (max-width: 760px) {
+    .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
